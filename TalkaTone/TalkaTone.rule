@@ -1,0 +1,16 @@
+https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/TalkaTone/TalkaTone.rule
+
+# 内容：TalkaTone
+# 数量：6条
+
+# 可能需要
+DOMAIN-SUFFIX,tenor.com
+DOMAIN-SUFFIX,vm.talkatone.com
+DOMAIN-SUFFIX,tktn.at
+DOMAIN-SUFFIX,tktn.be
+
+# 语音留言地址 >> 一般需要
+DOMAIN-SUFFIX,vm.talkatone.com
+
+# 贴图服务地址 >> 一般需要
+DOMAIN-SUFFIX,tenor.com

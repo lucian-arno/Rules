@@ -1,6 +1,6 @@
-https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Redbook-Direct.rule
+https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Rednote/Rednote-Direct.rule
 
-# 内容：Redbook-Direct
+# 内容：Rednote-Direct
 # 数量：4条
 
 DOMAIN-SUFFIX,xiaohongshu.net
