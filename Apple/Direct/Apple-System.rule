@@ -1,6 +1,6 @@
 https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Direct/Apple-System.rule
 
-# 说明：Apple 本地化相关服务
+# 说明：Apple 系统服务
 # 内容：Apple-System
 # 数量：24条
 
@@ -45,7 +45,7 @@ DOMAIN,lcdn-registration.apple.com
 DOMAIN,suconfig.apple.com
 DOMAIN,xp-cdn.apple.com
 
-# icloud 国内专属域（云上贵州）
+# icloud 国内专属域
 DOMAIN-KEYWORD,-cn.apple.com
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,apple.com.cn
