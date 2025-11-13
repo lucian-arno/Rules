@@ -1,0 +1,35 @@
+https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Direct/Apple-Local.rule
+
+# 说明：Apple 本地化相关服务
+# 内容：Apple-Local
+# 数量：20条
+
+# 查找设备与设备定位
+USER-AGENT,*com.apple.mobileme.fmip1
+USER-AGENT,FindMyFriends*
+USER-AGENT,FindMyiPhone*
+USER-AGENT,FMDClient*
+USER-AGENT,FMFD*
+USER-AGENT,fmflocatord*
+
+# 天气
+USER-AGENT,*WeatherFoundation*
+DOMAIN,weather-data.apple.com
+
+# 位置与地图
+USER-AGENT,%E5%9C%B0%E5%9B%BE*
+USER-AGENT,%E8%AE%BE%E7%BD%AE*
+USER-AGENT,com.apple.geod*
+USER-AGENT,com.apple.Maps
+USER-AGENT,geod*
+USER-AGENT,locationd*
+USER-AGENT,Maps*
+
+# 位置服务
+DOMAIN,gs-loc.apple.com
+DOMAIN,gs-loc-cn.apple.com
+DOMAIN-SUFFIX,ls.apple.com.akadns.net
+DOMAIN-SUFFIX,ls.apple.com.edgesuite.net
+
+# 地理服务框架
+DOMAIN-SUFFIX,ls.apple.com

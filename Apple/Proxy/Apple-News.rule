@@ -1,0 +1,11 @@
+https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Apple-News.rule
+
+# 内容：Apple-News
+# 数量：6条
+
+USER-AGENT,AppleNews*
+DOMAIN,news-events.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,apple.comscoreresearch.com
+DOMAIN-SUFFIX,apple.comscoreresearch.com
+DOMAIN-SUFFIX,apple.news

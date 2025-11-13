@@ -1,10 +1,12 @@
-https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Apple-CDN-Global.rule
+https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Direct/Apple-CDN-Global.rule
 
 # 内容：Apple-CDN-Global
 # 数量：19条
 
-# App Store CDN
+# iOS App Store CDN
 DOMAIN,iosapps.itunes.apple.com
+
+# MacOS App Store CDN
 DOMAIN,osxapps.itunes.apple.com
 DOMAIN,oscdn.apple.com
 
@@ -31,10 +33,13 @@ DOMAIN,mvod.itunes.apple.com
 DOMAIN,streamingaudio.itunes.apple.com
 DOMAIN,apptrailers.itunes.apple.com
 
-# 其他 AppStore / iTunes CDN
+# AASA（通用链接配置文件）专用 CDN
 DOMAIN,app-site-association.cdn-apple.com
+
+# AppStore / iTunes 下载分发 CDN
 DOMAIN,downloaddispatch.itunes.apple.com
 
-# Developer CDN
+# Developer 下载 CDN
 DOMAIN,download.developer.apple.com
+
 

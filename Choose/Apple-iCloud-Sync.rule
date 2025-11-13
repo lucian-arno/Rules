@@ -1,0 +1,11 @@
+https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Choose/Apple-iCloud-Sync.rule
+
+# 内容：Apple-iCloud-Sync
+# 数量：5条
+
+# iCloud 上传和下载
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,apple-cloudkit.com

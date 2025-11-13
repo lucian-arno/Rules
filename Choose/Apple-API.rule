@@ -1,4 +1,4 @@
-https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Apple-API.rule
+https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Choose/Apple-API.rule
 
 # 内容：Apple-API
 # 数量：20条
@@ -20,14 +20,6 @@ DOMAIN,su.itunes.apple.com
 DOMAIN,upp.itunes.apple.com
 DOMAIN,beta.music.apple.com
 DOMAIN-SUFFIX,itunes-apple.com.akadns.net
-
-# Apple News
-USER-AGENT,AppleNews*
-DOMAIN,news-events.apple.com
-DOMAIN,news-edge.apple.com
-DOMAIN,apple.comscoreresearch.com
-DOMAIN-SUFFIX,apple.comscoreresearch.com
-DOMAIN-SUFFIX,apple.news
 
 # icloud 隐私中继
 DOMAIN,apple-relay.apple.com

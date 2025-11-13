@@ -1,21 +1,20 @@
-https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Apple-CDN-!CN.rule
+https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Proxy/Apple-CDN-!CN.rule
 
 # 内容：Apple-CDN-!CN
 # 数量：10条
 
-# iTunes !CN CDN
+# iTunes CDN !CN
 DOMAIN-SUFFIX,hls.itunes.apple.com
 DOMAIN-SUFFIX,hls-amt.itunes.apple.com
 DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN,cdn.apple-cloudkit.com
 
-# Developer !CN CDN
+# Developer CDN !CN
 DOMAIN,devimages-cdn.apple.com
 DOMAIN,devstreaming-cdn.apple.com
 DOMAIN,js-cdn.music.apple.com
 DOMAIN,docs-assets.developer.apple.com
 
-# Apple DNS !CN CDN
+# Apple 全球区域 DNS 调度系统
 DOMAIN-SUFFIX,apple-dns.net
-

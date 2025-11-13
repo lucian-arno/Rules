@@ -1,0 +1,7 @@
+https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Choose/Apple-iMessage.rule
+
+# 内容：Apple-iMessage
+# 数量：1条
+
+# iMessage
+DOMAIN-SUFFIX,ess.apple.com

@@ -1,0 +1,7 @@
+https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Choose/Apple-Configuration.rule
+
+# 内容：Apple-Configuration
+# 数量：1条
+
+# Configuration 设备激活、远程配置（MDM）、系统设置同步
+DOMAIN,configuration.apple.com

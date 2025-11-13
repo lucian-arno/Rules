@@ -1,0 +1,51 @@
+https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Direct/Apple-System.rule
+
+# 说明：Apple 本地化相关服务
+# 内容：Apple-System
+# 数量：24条
+
+# Apple Store 在线商店主域
+DOMAIN-SUFFIX,store.apple.com
+
+# 聚焦搜索
+DOMAIN,api.smoot.apple.com
+DOMAIN,api.smoot.apple.cn
+
+# 热点认证
+DOMAIN,captive.apple.com
+
+# Apple Pay
+DOMAIN,smp-device-content.apple.com
+DOMAIN-KEYWORD,smp-device
+USER-AGENT,passd*
+USER-AGENT,Wallet*
+
+# 预约系统
+DOMAIN,reserve-prime.apple.com
+
+# 通知与推送
+DOMAIN-KEYWORD,push-apple.com.akadns.net
+DOMAIN-SUFFIX,push.apple.com.akadns.net
+DOMAIN-SUFFIX,push.apple.com
+
+# 翻译服务
+DOMAIN,sequoia.apple.com
+DOMAIN,seed-sequoia.siri.apple.com
+
+# 系统设置
+DOMAIN,sq-device.apple.com
+
+# 系统安全验证（证书在线验证、iOS/MacOS系统守护进程）
+DOMAIN-SUFFIX,ocsp.apple.com
+USER-AGENT,com.apple.trustd*
+
+# 业务调度系统（系统更新、体验平台、CDN等）
+DOMAIN-SUFFIX,lcdn-locator.apple.com
+DOMAIN,lcdn-registration.apple.com
+DOMAIN,suconfig.apple.com
+DOMAIN,xp-cdn.apple.com
+
+# icloud 国内专属域（云上贵州）
+DOMAIN-KEYWORD,-cn.apple.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,apple.com.cn
