@@ -3,14 +3,16 @@ https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Apple-
 # 内容：Apple-API
 # 数量：20条
 
+# App Store / Apple ID 交易逻辑
 DOMAIN,guzzoni.apple.com
 DOMAIN,apps.apple.com
+DOMAIN,xp.apple.com
+DOMAIN,bag.itunes.apple.com
 DOMAIN,api.apps.apple.com
 DOMAIN,api-edge.apps.apple.com
-DOMAIN,bag.itunes.apple.com
 DOMAIN-KEYWORD,buy.itunes.apple.com
-DOMAIN,xp.apple.com
 
+# iTunes / Music 媒体与内容分发
 DOMAIN,play.itunes.apple.com
 DOMAIN,se.itunes.apple.com
 DOMAIN,se-edge.itunes.apple.com
@@ -19,8 +21,11 @@ DOMAIN,upp.itunes.apple.com
 DOMAIN,beta.music.apple.com
 DOMAIN-SUFFIX,itunes-apple.com.akadns.net
 
+# Apple News
 USER-AGENT,AppleNews*
 DOMAIN,news-events.apple.com
 DOMAIN,news-edge.apple.com
 DOMAIN,apple.comscoreresearch.com
 
+# icloud 隐私中继
+DOMAIN,apple-relay.apple.com

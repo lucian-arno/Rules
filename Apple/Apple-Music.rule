@@ -1,0 +1,12 @@
+https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Apple-Music.rule
+
+# 内容：Apple-Music
+# 数量：4条
+
+# Apple Music
+DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,sonos-music.apple.com
+
+# iTunes
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,itunes.apple.com

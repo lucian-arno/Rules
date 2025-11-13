@@ -3,6 +3,7 @@ https://raw.githubusercontent.com/lucian-arno/Rules/refs/heads/main/Apple/Apple-
 # 内容：Apple-Direct
 # 数量：44条
 
+# 查找设备与设备定位
 USER-AGENT,*com.apple.mobileme.fmip1
 USER-AGENT,FindMyFriends*
 USER-AGENT,FindMyiPhone*
@@ -10,9 +11,11 @@ USER-AGENT,FMDClient*
 USER-AGENT,FMFD*
 USER-AGENT,fmflocatord*
 
+# 天气
 USER-AGENT,*WeatherFoundation*
 DOMAIN,weather-data.apple.com
 
+# 位置与地图
 USER-AGENT,%E5%9C%B0%E5%9B%BE*
 USER-AGENT,%E8%AE%BE%E7%BD%AE*
 USER-AGENT,com.apple.geod*
@@ -26,39 +29,48 @@ DOMAIN-SUFFIX,ls.apple.com.akadns.net
 DOMAIN-SUFFIX,ls.apple.com.edgesuite.net
 DOMAIN-SUFFIX,ls.apple.com
 
+# Apple Store
 DOMAIN-SUFFIX,store.apple.com
 
+# Spotlight
 DOMAIN,api.smoot.apple.com
 DOMAIN,api.smoot.apple.cn
 
+# 热点认证
 DOMAIN,captive.apple.com
 
+# Apple Pay
 DOMAIN,smp-device-content.apple.com
 DOMAIN-KEYWORD,smp-device
 USER-AGENT,passd*
 USER-AGENT,Wallet*
 
+# 预约系统
 DOMAIN,reserve-prime.apple.com
 
+# 通知与推送
 DOMAIN-KEYWORD,push-apple.com.akadns.net
 DOMAIN-SUFFIX,push.apple.com.akadns.net
 DOMAIN-SUFFIX,push.apple.com
 
+# 系统配置更新
 DOMAIN-SUFFIX,lcdn-locator.apple.com
 DOMAIN,lcdn-registration.apple.com
 DOMAIN,suconfig.apple.com
 DOMAIN,xp-cdn.apple.com
 
+# 翻译服务
 DOMAIN,sequoia.apple.com
 DOMAIN,seed-sequoia.siri.apple.com
 
+# 系统设置
 DOMAIN,sq-device.apple.com
 
+# 系统安全验证（证书与激活）
 DOMAIN-SUFFIX,ocsp.apple.com
 USER-AGENT,com.apple.trustd*
 
+# icloud 国内专属域（云上贵州）
 DOMAIN-KEYWORD,-cn.apple.com
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,apple.com.cn
-
-DOMAIN,apple-relay.apple.com
