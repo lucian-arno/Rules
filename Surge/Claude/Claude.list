@@ -1,6 +1,6 @@
 https://raw.githubusercontent.com/lucian-arno/Rules/Loon/refs/heads/main/Claude/Claude-US.rule
 
-# 内容：Claude-US
+# 内容：Claude
 # 数量：1条
 
 DOMAIN-SUFFIX,claudeusercontent.com
