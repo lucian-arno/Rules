@@ -1,2 +1,4 @@
-Local
 .DS_Store
+.gitignore
+.local
+.abandoned
