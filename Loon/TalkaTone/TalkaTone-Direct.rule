@@ -1,8 +1,3 @@
-https://raw.githubusercontent.com/lucian-arno/Rules/Loon/refs/heads/main/TalkaTone/TalkaTone-Direct.rule
-
-# 内容：TalkaTone-Direct
-# 数量：9条
-
 # 可能需要 Direct 的规则
 DOMAIN-SUFFIX,agkn.com
 DOMAIN-SUFFIX,cohere.com

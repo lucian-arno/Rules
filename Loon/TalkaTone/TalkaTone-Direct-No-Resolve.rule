@@ -1,8 +1,3 @@
-https://raw.githubusercontent.com/lucian-arno/Rules/Loon/refs/heads/main/TalkaTone/TalkaTone-Direct-No-Resolve.rule
-
-# 内容：TalkaTone-Direct-No-Resolve
-# 数量：5条
-
 # 可能需要 Direct 的规则
 IP-CIDR,205.164.56.0/24
 IP-CIDR,216.172.154.0/24

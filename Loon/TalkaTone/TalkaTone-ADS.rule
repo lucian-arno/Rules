@@ -1,8 +1,3 @@
-https://raw.githubusercontent.com/lucian-arno/Rules/Loon/refs/heads/main/TalkaTone/TalkaTone-ADS.rule
-
-# 内容：TalkaTone-ADS
-# 数量：64条
-
 DOMAIN-SUFFIX,aax.amazon-adsystem.com
 DOMAIN-SUFFIX,aax-fe.amazon-adsystem.com
 DOMAIN-SUFFIX,aax-fe-sin.amazon-adsystem.com

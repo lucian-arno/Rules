@@ -1,8 +1,3 @@
-https://raw.githubusercontent.com/lucian-arno/Rules/Loon/refs/heads/main/TalkaTone/TalkaTone.rule
-
-# 内容：TalkaTone
-# 数量：6条
-
 # 可能需要
 DOMAIN-SUFFIX,tenor.com
 DOMAIN-SUFFIX,vm.talkatone.com
