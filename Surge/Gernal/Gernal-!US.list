@@ -1,8 +1,0 @@
-https://raw.githubusercontent.com/lucian-arno/Rules/Surge/refs/heads/main/Gernal/Gernal-!US.list
-
-# 内容：Gernal-!US
-# 数量：2条
-
-DOMAIN-SUFFIX,w16.monkrus.ws
-DOMAIN-SUFFIX,repack.me
-DOMAIN-SUFFIX,sms-activate.io

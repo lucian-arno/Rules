@@ -1,9 +1,0 @@
-https://raw.githubusercontent.com/lucian-arno/Rules/Surge/refs/heads/main/Rednote/Rednote-Direct.list
-
-# 内容：Rednote-Direct
-# 数量：4条
-
-DOMAIN-SUFFIX,xiaohongshu.net
-DOMAIN-KEYWORD,xhscdn
-DOMAIN-SUFFIX,xhscdn.com
-DOMAIN-SUFFIX,xiaohongshu.com
