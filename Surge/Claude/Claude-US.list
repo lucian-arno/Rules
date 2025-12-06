@@ -1,4 +1,6 @@
-# https://raw.githubusercontent.com/lucian-arno/Rules/Surge/refs/heads/main/Claude/Claude-US.list
-# NAME: Claude-US
-# TOTAL: 1
+https://raw.githubusercontent.com/lucian-arno/Rules/Surge/refs/heads/main/Claude/Claude-US.rule
+
+# 内容：Claude-US
+# 数量：1条
+
 DOMAIN-SUFFIX,claudeusercontent.com
