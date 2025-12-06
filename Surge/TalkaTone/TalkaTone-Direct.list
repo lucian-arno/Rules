@@ -1,0 +1,15 @@
+https://raw.githubusercontent.com/lucian-arno/Rules/Surge/refs/heads/main/TalkaTone/TalkaTone-Direct.list
+
+# 内容：TalkaTone-Direct
+# 数量：9条
+
+# 可能需要 Direct 的规则
+DOMAIN-SUFFIX,agkn.com
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,inmobi.com
+DOMAIN-SUFFIX,inner-active.mobi
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,kochava.com
+DOMAIN-SUFFIX,mobilefuse.com
+DOMAIN-SUFFIX,talkatone.com
